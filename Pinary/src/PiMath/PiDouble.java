@@ -81,4 +81,15 @@ public class PiDouble {
 			Base10 *= temp;
 		BuildPiDouble(Base10);
 	}
+	
+	
+	// Getter for Base Pi number
+	public double getBasePi() {
+		return BasePi;
+	}
+	
+	// Getter for Base 10 number
+	public double getBase10() {
+		return Base10;
+	}
 }
